@@ -1,0 +1,6 @@
+query getTodos {
+  getTodos {
+    name
+    complete
+  }
+}

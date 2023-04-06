@@ -1,0 +1,7 @@
+query addTodo($name: String) {
+  addTodo(name: $name) {
+    id
+    name
+    complete
+  }
+}
